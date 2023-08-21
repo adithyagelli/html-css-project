@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/bfdcbb0db6.js" crossorigin="anonymous"></script>
+    <title>Car Rento</title>
+</head>
+<body>
+    <section class="hero_section">
+        <nav class="navigation">
+            <div class="car-logo">
+                <img class="logo" src="C:\Users\DELL\OneDrive\Desktop\Aditya\car-logo.jpg" alt="company_logo">
+                <p class="logo-text">
+                    Car-Rento
+                </p>
+            </div>
+            <ul class="nav-menu">
+                <li class="menu-items">
+                    <a href="#sectioncontact">Sign-up</a>
+                </li>
+                <li class="menu-items">
+                    <a href="#sectioncontact">Login</a>
+                </li>
+                <li class="menu-items">
+                    <a href="#poploc_section">Popular Locations</a>
+                </li>
+                <li class="menu-items">
+                    <a href="#sorting_section">Manage Bookings</a>
+                </li>
+            </ul>
+        </nav>
+        
+        <!-- <img src="./hero-img.jpg" alt="main_image"> -->
+        <div class="hero_section-content">
+            <p>
+                <span>Car Hire -</span>
+            </p>
+            <p>
+                <span>Search</span>, <span>Compare</span> and <span>Save</span>
+            </p>
+            <button class="hero_section-btn btn">Get Started!</button>
+        </div>
+    </section>
+
+    <section class="poploc_section" id="poploc_section">
+        <p class="poploc_section-heading section-heading">
+
+
+            Popular Locations
+        </p>
+        <div class="poploc_section-container">
+            <div class="location_card">
+            <img src="C:\Users\DELL\OneDrive\Desktop\Aditya\card_img-1.jpg" alt="location1">
+            <p class="loc_name">
+                MUMBAI
+            </p>
+            <div class="card_rating">
+                <span>Ratings: 4.5 OUT OF 5</span>
+            </div>
+            <p class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus praesentium sit ullam cum quam dicta 
+            </p>
+            <button class="btn card_btn">
+                Learn more
+            </button>
+        </div>
+
+        <div class="location_card">
+            <img class="loc_img" src="C:\Users\DELL\OneDrive\Desktop\Aditya\card_img-2.jpg" alt="location1">
+            <p class="loc_name">
+                CHHENAI
+            </p>
+            <div class="card_rating">
+                <span>Ratings: 4 OUT OF 5</span>
+            </div>
+            <p class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus praesentium sit ullam cum quam dicta 
+            </p>
+            <button class="btn card_btn">
+                Learn more
+            </button>
+        </div>
+
+        <div class="location_card">
+            <img src="C:\Users\DELL\OneDrive\Desktop\Aditya\card_img-3.jpg" alt="location1">
+            <p class="loc_name">
+                VIZAG
+            </p>
+            <div class="card_rating">
+                <span>Ratings: 5 OUT OF 5</span>
+            </div>
+            <p class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus praesentium sit ullam cum quam dicta
+            </p>
+            <button class="btn card_btn">
+                Learn more
+            </button>
+        </div>
+
+        <div class="location_card">
+            <img src="C:\Users\DELL\OneDrive\Desktop\Aditya\card_img-4.jpg" alt="location1">
+            <p class="loc_name">
+                KOLKATA
+            </p>
+            <div class="card_rating">
+                <span>Ratings: 4.5 OUT OF 5</span>
+            </div>
+            <p class="card_text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio necessitatibus praesentium sit ullam cum quam dicta
+            </p>
+            <button class="btn card_btn">
+                Learn more
+            </button>
+        </div>
+        </div>
+    </section>
+    <section class="sorting_section" id="sorting_section">
+        <p class="sorting_section-heading section-heading">
+            Let's find out your rental car 
+        </p>
+        <div class="sorting_section-container">
+            <div class="sort-1">
+                <label for="pickup_loc" class="label label-1">Pick up location:</label>
+                <select class="pickup_dropdown" name="pickup_loc" id="pickup_menu">
+                    <option value="random area 1">Random Area 1</option>
+                    <option value="random area 2">Random Area 2</option>
+                    <option value="random area 3">Random Area 3</option>
+                    <option value="random area 4">Random Area 4</option>
+                </select>
+            </div>
+            
+            <div class="sort-2">
+                <label for="pickup_loc"  class="label label-2">Pick up Date:</label>
+                <input type="date" value="pickup_loc">
+            </div>
+            
+            <div class="sort-3">
+                <label for="pickup_loc" class="label label-3">Drop off Date:</label>
+                <input type="date" value="pickup_loc">
+
+            </div>
+
+            <button class="sort_section-btn btn">Search</button>
+        </div>
+       
+    </section>
+
+    <section class="section contact-section contact_section" id="sectioncontact">
+            <div class="form_container">
+                <h2 class="contact_heading section-heading">
+                    Get in touch
+                </h2> 
+                <form class="form">
+                    <div class="input_feild">
+                        <label>
+                            FIRSTNAME
+                        </label>
+                        <input type="text" name="firstname" placeholder="FIRST NAME" required>
+                    </div>
+                    <div class="input_feild">
+                        <label>
+                            LASTNAME
+                        </label>
+                        <input type="text" name="firstname" placeholder="LAST NAME" required>
+                    </div>
+                    <div class="input_feild">
+                        <label>
+                            EMaIL
+                        </label>
+                        <input type="email" name="firstname" placeholder="EMAIL" required>
+                    </div>
+                    <div class="input_feild">
+                        <label>
+                            FEEDBACK
+                        </label>
+                        <textarea name="feedback" placeholder="Please leave some feedback" id="contact_textarea" cols="30" rows="10"></textarea>
+                    </div>
+                    <div class="input_feild">
+                        <input type="submit" class="submit_btn" name="submit">
+                    </div>
+                </form>
+            </div>
+        </section>
+</body>
+</html>

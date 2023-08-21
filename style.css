@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(241, 238, 238);
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.hero_section {
+    position: relative;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.223), #000),  url(./hero-img.jpg);
+    height: 100vh;
+    /* background-clip: unset; */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navigation {
+    padding: 5px 40px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+/* Main Logo */
+
+.car-logo {
+    position: relative;
+}
+
+.logo {
+    height: 60px;
+    /* color: rgb(240, 32, 32); */
+
+}
+
+.logo-text {
+    font-family: 'Square Peg', cursive;
+    color: #fcd106;
+    font-size: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+/*  */
+
+.nav-menu {
+    display: flex;
+    margin-top: 5px;
+}
+
+.menu-items {
+    margin-right: 25px;
+    list-style-type: none;
+    /* height: 40px; */
+    /* top: 20px; */
+    font-size: 16px;
+}
+
+.menu-items a {
+    text-decoration: none;
+    color: #fff;
+    /* border: 2px solid #fcd106; */
+    background-color: #fcd106;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+
+.hero_section-content {
+    line-height: 120px;
+    color: #fcd106;
+    font-weight: 400;
+    font-size: 60px;
+    top: 0;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.btn {
+    background-color: #fcd106;
+    border: 2px solid #fcd106;
+    outline: none;
+    font-size: 24px;
+    color: #000;
+    padding: 10px 20px;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 1px 2px 10px #fff;
+}
+
+.hero_section-btn {
+    position: absolute;
+    left: 40%;
+    top: 270px;
+}
+
+.hero_section-content p {
+    width: max-content;
+    font-size: 50px;
+}
+
+.hero_section-content p:nth-child(1) span{
+    background-color: #fcd106;
+    color: #000;
+    padding: 0;
+    display: inline-block;
+    transform: skewX(15deg);
+    box-shadow: 1px 2px 10px #fff;
+}
+
+.hero_section-content p span{
+    background-color: #fcd106;
+    color: #000;
+    padding: 5px 15px;
+    box-shadow: 1px 2px 10px #fff;
+}
+
+.hero_section-content p:nth-child(2){
+    transform: skewX(15deg);
+}
+
+
+.poploc_section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.poploc_section {
+    background-color: rgb(240, 237, 237);
+}
+
+
+.location_card {
+    width: 350px;
+    height: 450px;
+    background-color: #fcd106;
+    margin: 10px;
+    margin: 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(41, 41, 41, 0.608);
+}
+
+.location_card img {
+    position: relative;
+    display: flex;
+    width: 300px;
+    border-radius: 8px;
+    margin: 15px auto;
+}
+
+
+.loc_name {
+    color: #fff;
+    font-size: 24px;
+    display: inline-block;
+    border-bottom: 2px solid #fff;
+    margin-left: 25px;
+
+}
+
+.card_rating {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline-block;
+    padding: 10px 15px;
+    color: #000;
+    background-color: #fff;
+}
+
+
+.card_text {
+    font-size: 16px;
+    margin: 40px 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.card_btn {
+    background-color: #fff;
+    color: #fcd106;
+    border: none;
+    box-shadow: 1px 2px 5px rgb(41, 41, 41);
+    margin-left: 150px;
+}
+
+.poploc_section-heading {
+    position: absolute;
+    display: inline-block;
+    color: #000;
+    background-color: #fcd106;
+    transform: skewX(15deg);
+    left: 450px;
+    top: 700px;
+    padding: 8px 25px;
+    box-shadow: 1px 2px 5px rgb(41, 41, 41);
+    font-size: 45px;
+    /* border-bottom: 2px solid #fcd106; */
+}
+.sorting_section {
+  position: relative;
+  background-color: #fcd106;
+  height: 70vh;
+}
+
+.sorting_section-heading {
+  top: 50px;
+  left: 25%;
+  background-color: #fff;
+  color: #fcd106;
+}
+
+.sorting_section-container {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* width: ; */
+}
+
+.sorting_section-container select,.sorting_section-container  input{
+  height: 50px;
+  width: 200px;
+  background-color: #fff;
+  border: none;
+  color: #fcd106;
+  font-size: 18px;
+  padding: 0 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 2px rgba(41, 41, 41, 0.445);
+}
+
+.sorting_section-container label {
+  display: inline-block;
+}
+
+.sorting_section-container div {
+  margin: 20px 0;
+}
+
+.label {
+  font-size: 24px;
+  color: #fff;
+}
+
+.label-1 {
+  margin-right: 15px;
+}
+
+.label-2 {
+  margin-right: 50px;
+}
+
+.label-3 {
+  margin-right: 45px;
+} 
+
+.sort_section-btn {
+  position: inherit;
+  background-color: #fff;
+  color: #fcd106;
+  font-size: 18px;
+  left: 35%;
+  box-shadow: 5px 5px 2px rgba(41, 41, 41, 0.445);
+
+}
+
+.contact_section {
+  position: relative;
+}
+
+.form_container {
+width: 90%;
+background-color: #fcd106;
+margin: 100px auto;
+padding: 30px;
+box-shadow: 3px 4px 2px rgb(136, 136, 136, 0.5);
+}
+
+.contact_heading {
+position: absolute;
+  display: inline-block;
+  color: #fff;
+  background-color: #fcd106;
+  transform: skewX(15deg);
+  left: 450px;
+  top: -90px;
+  padding: 8px 25px;
+  box-shadow: 1px 2px 5px rgb(41, 41, 41);
+  font-size: 45px;
+  /* border-bottom: 2px solid #fcd106; */     
+}
+
+.input_feild {
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+}
+
+.input_feild label {
+width: 200px;
+font-size: 16px;
+color: #fff;
+}
+
+.input_feild input {
+border: none;
+outline: none;
+border-radius: 5px;
+width: 400px;
+letter-spacing: 2px;
+padding: 10px 15px;
+transition: 0.3s;
+}
+
+.input_feild input::placeholder,
+#contact_textarea::placeholder {
+opacity: 0.7;
+color: #fcd106;
+}
+
+#contact_textarea {
+border: none;
+outline: none;
+width: 90%;
+font-size: 16px;
+padding: 5px 10px;
+margin-bottom: 20px;
+}
+
+.submit_btn {
+margin: auto;
+color: #fcd106;
+font-size: 16px;
+background-color: #ffff;
+cursor: pointer;
+}
